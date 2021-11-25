@@ -14,6 +14,10 @@
   margin: 10px;
 }
 
+.card img {
+  max-width: 60px;
+}
+
 .btn {
   display: inline-block;
   padding: 10px 30px;
@@ -72,18 +76,18 @@
 /* Text Colors */
 
 .text-primary {
-  color: var(--primary-color);
+  color: var(--primary-color) !important;
 }
 
 .text-secondary {
-  color: var(--secondary-color);
+  color: var(--secondary-color) !important;
 }
 
 .text-dark {
-  color: var(--dark-color);
+  color: var(--dark-color) !important;
 }
 .text-light {
-  color: var(--light-color);
+  color: var(--light-color) !important;
 }
 
 /* Text Sizes */

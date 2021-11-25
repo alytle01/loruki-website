@@ -8,7 +8,7 @@
   --success-color: #5cb85c;
   --error-color: #d9534f;
   --white-color: #fff;
-  --dark-grey-color: #333;
+  --grey-color: #333;
 }
 
 * {
@@ -19,7 +19,7 @@
 
 body {
   font-family: "Lato", sans-serif;
-  color: var(--dark-grey-color);
+  color: var(--grey-color);
   line-height: 1.6;
 }
 
@@ -29,7 +29,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: var(--dark-grey-color);
+  color: var(--grey-color);
 }
 
 h1,
@@ -49,7 +49,7 @@ img {
 
 code,
 pre {
-  background: var(--dark-grey-color);
+  background: var(--grey-color);
   color: var(--white-color);
   padding: 10px;
 }
